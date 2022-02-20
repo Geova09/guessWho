@@ -2,7 +2,7 @@ package guessinggame;
 
 public class Card {
     
-    //fields for the cards
+    
     private String name;
     private String hairColor;
     private String shirtColor;
@@ -11,7 +11,7 @@ public class Card {
     private boolean smiling;
     private boolean hat;
     
-    //constructor for the cards
+    
     public Card(String name, String hairColor, String shirtColor, String eyesColor, boolean glasses, boolean smiling, boolean hat){
         this.name = name;
         this.hairColor = hairColor;
@@ -22,7 +22,7 @@ public class Card {
         this.hat = hat;
     }
     
-    //getters and setters for the card private fields
+   
     public String getName() {
         return name;
     }
@@ -79,7 +79,7 @@ public class Card {
         this.hat = hat;
     }
     
-    //overriding toString method
+   
     @Override
     public String toString() {
         return "Name: "+this.name+", HairColor: "+this.hairColor+
