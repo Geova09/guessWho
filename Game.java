@@ -3,15 +3,15 @@ import java.util.ArrayList;
 
 public class Game {
     
-    //creating Card arrays for the 2 players, each player will have his own array which will accept Card objects
+    
     ArrayList<Card> player1Cards = new ArrayList<>();
     ArrayList<Card> player2Cards = new ArrayList<>();
     
-    //each player will have his own private card which will be type of Card
+  
     private Card player1Card;
     private Card player2Card;
     
-    //adding new card objects to the players arrays inside a method
+    
     public void startNewGame(){
         player1Cards.add(new Card("Alice", "Brown", "Black",  "Brown", true, true, false));
         player1Cards.add(new Card("Bob",       "Blond", "White",  "Brown", false,  true, false));
@@ -64,11 +64,11 @@ public class Game {
         player2Cards.add(new Card("Xavier",    "Red",  "Green",  "Brown", false,  true, false));
     }
 
-    //getters and setters for the player card
+    
     public Card getPlayer1Card() {
         return player1Card;
     }
-    //setting player card and looping through each element in his array to match his choise with the corresponding card
+    
     public void setPlayer1Card(String name) {
         for(Card card : player1Cards){
             if(card.getName().equals(name)){
@@ -92,7 +92,7 @@ public class Game {
         }
     }
     
-    //using split method to devide users input into 2 parts and switching through the feature options to call the appropriate method depending on users input
+    
     public void play(int player, String input){
         
         String[] parts = input.split(":");
@@ -123,7 +123,7 @@ public class Game {
         }
     }
     
-    //the check methods from switching features for both players
+    
     private void choseHair(int player, String color){
         if(player == 1){
             if(player2Card.getHairColor().equals(color)){
