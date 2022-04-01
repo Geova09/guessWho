@@ -1,2 +1,2 @@
-# GuessWho game project for the class Foundations of Computing
+# GuessWho game project for the course Foundations of Computing
 
