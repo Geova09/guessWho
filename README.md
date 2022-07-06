@@ -1,4 +1,4 @@
 ### GuessWho game project 
 ---
-#####for the  course Foundations of Computing
+for the  course Foundations of Computing
 
