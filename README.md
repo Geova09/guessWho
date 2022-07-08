@@ -1,7 +1,7 @@
 ### Guess Who Game  
 ---
 <div id="header" align="left">
-  <i>for the  course Foundations of Computing</i><img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="50"/>
+  <i>for the  course Foundations of Computing</i><img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="80"/>
 </div>
 
 ### :hammer_and_wrench: Languages and Tools :
