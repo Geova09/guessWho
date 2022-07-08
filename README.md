@@ -1,7 +1,7 @@
 ### Guess Who Game  
 ---
 <div id="header" align="left">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+  <i>for the  course Foundations of Computing</i><img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
 </div>
 
 _for the  course Foundations of Computing_ 
